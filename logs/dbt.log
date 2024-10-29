@@ -1,0 +1,56 @@
+[0m13:54:44.016063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020862DA7530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020860277590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020862DA5AC0>]}
+
+
+============================== 13:54:44.046064 | 47861c83-ab8c-433a-9ea9-e8afbb4455c6 ==============================
+[0m13:54:44.046064 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:54:44.048064 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Mairon\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m13:55:07.116093 [debug] [MainThread]: Starter project path: D:\Projetos_Programação\jornada_de_dados\dbt\dbt_00\.venv\Lib\site-packages\dbt\include\starter_project
+[0m13:55:07.129094 [info ] [MainThread]: 
+Your new dbt project "porjeto01" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:55:07.131096 [info ] [MainThread]: Setting up your profile.
+[0m14:04:47.668723 [info ] [MainThread]: Profile porjeto01 written to C:\Users\Mairon\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:04:47.670724 [debug] [MainThread]: Command `dbt init` succeeded at 14:04:47.670724 after 603.78 seconds
+[0m14:04:47.671723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020860277590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208645BB860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020862D894F0>]}
+[0m14:04:47.672724 [debug] [MainThread]: Flushing usage events
+[0m10:27:35.545893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0C9BF37A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0C79902C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0C934BE00>]}
+
+
+============================== 10:27:35.574514 | 1b2fa741-1a83-4e5c-9eec-7188c415562a ==============================
+[0m10:27:35.574514 [info ] [MainThread]: Running with dbt=1.8.7
+[0m10:27:35.575516 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Mairon\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:27:58.227911 [debug] [MainThread]: Starter project path: D:\Projetos_Programação\jornada_de_dados\dbt\dbt_00\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:27:58.345850 [info ] [MainThread]: 
+Your new dbt project "projeto01" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:27:58.346849 [info ] [MainThread]: Setting up your profile.
+[0m10:29:56.958393 [info ] [MainThread]: Profile projeto01 written to C:\Users\Mairon\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:29:56.960392 [debug] [MainThread]: Command `dbt init` succeeded at 10:29:56.959394 after 141.56 seconds
+[0m10:29:56.960392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0C9D16450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0C9E46BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0C959FE30>]}
+[0m10:29:56.961393 [debug] [MainThread]: Flushing usage events
